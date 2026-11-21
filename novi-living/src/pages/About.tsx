@@ -103,11 +103,6 @@ export default function About() {
         </div>
         <div className="space-y-5 text-ink-soft md:col-span-6 md:col-start-7">
           <p>
-            Novi manages residential rental property for owners. The legal
-            entity on your agreement is confirmed before it is issued — the
-            trading name you will see is Novi Property Management Limited.
-          </p>
-          <p>
             Larger Auckland firms compete on portfolio size, branch networks and
             review volume. Those numbers are useful when you want a machine.
             They are less useful when you want someone who has actually read the
