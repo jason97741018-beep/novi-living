@@ -1,5 +1,4 @@
 import { useEffect } from 'react'
-import { Link } from 'react-router-dom'
 
 const principles = [
   {
@@ -156,38 +155,6 @@ export default function Fees() {
                 and a project fee are not both charged for the same job.
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-paper-deep">
-        <div className="mx-auto grid max-w-6xl gap-8 px-5 py-16 md:grid-cols-12 md:px-8 md:py-20">
-          <div className="md:col-span-4">
-            <p className="text-xs font-medium tracking-label text-ink-soft uppercase">
-              For comparison
-            </p>
-            <h2 className="mt-4 font-display text-3xl leading-tight">
-              The Auckland market, not a Novi quote.
-            </h2>
-          </div>
-          <div className="space-y-4 text-ink-soft md:col-span-7 md:col-start-6">
-            <p>
-              Published Auckland management fees in 2026 commonly sit between 7%
-              and 12% of rent collected, plus GST. A letting fee is often about
-              one week’s rent plus GST, and some offices charge routine
-              inspections separately — often from around $50 plus GST.
-            </p>
-            <p>
-              Those figures are how the larger firms describe the market. Novi’s
-              own rates are set out in the schedule above and confirmed in your
-              agreement before anything is signed.
-            </p>
-            <Link
-              to="/contact"
-              className="inline-block text-ink underline underline-offset-4"
-            >
-              Discuss your property
-            </Link>
           </div>
         </div>
       </section>
